@@ -242,6 +242,12 @@ body {
   font-size: 18px;
   color: #404040;
   background: #006a91;
+  background-image: -webkit-gradient(linear, bottom top, top bottom, color-stop(0, #00a9de), color-stop(1, #006a91));
+  background-image: -webkit-linear-gradient(top bottom, #00a9de 0%, #006a91 100%);
+  background-image: -moz-linear-gradient(top bottom, #00a9de 0%, #006a91 100%);
+  background-image: -o-linear-gradient(top bottom, #00a9de 0%, #006a91 100%);
+  background-image: -ms-linear-gradient(top bottom, #00a9de 0%, #006a91 100%);
+  background-image: linear-gradient(top bottom, #00a9de 0%, #006a91 100%);
 }
 h1 {
   font-size: 72px;
